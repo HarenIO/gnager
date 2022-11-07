@@ -1,1 +1,214 @@
-/* Linus CSS */
+.right-column{
+  position: relative;
+}
+.search{
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.search form{
+  position: relative;
+}
+
+.search-icon{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.search input{
+  border-radius: 15px;
+  border-style: none;
+  background-color: #eff3f4;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  margin: 0.3rem 0;
+  width: 100%;
+}
+
+.search input::placeholder{
+  color:#5d6d79;
+}
+
+.search form input:focus{
+  outline: none;
+  border: 1px solid rgb(233, 141, 21);
+}
+
+.trends-section{
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 0.8rem;
+  align-self: flex-start;
+  background-color: #eff3f4;
+}
+
+.trends-title{
+  margin-bottom: 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.trend{
+  margin:0;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.trend:hover{
+  background-color: #e1e3e4;
+  cursor: pointer;
+}
+
+.trend p{
+  color: #5d6d79;
+  font-size: 0.8rem;
+  margin: 0;
+  line-height: 1.2rem;
+}
+
+.trending-title{
+  font-size: 1rem !important;
+  color: black !important;
+  font-weight: 500;
+}
+
+.trending-info{
+  position: relative;
+}
+
+.three-dots{
+  padding: 0.5rem;
+  right: 0;
+  top: -0.3rem;
+  position: absolute;
+  font-size: 1rem;
+}
+
+.three-dots:hover{
+  background-color:rgb(233, 141, 21, 30%);
+  border-radius: 50%;
+}
+
+.show-more{
+  padding: 1rem;
+}
+
+.show-more p{
+  color: rgb(233, 141, 21);
+  font-size: 1rem;
+}
+
+.show-more:hover{
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.suggestions{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 0.8rem;
+  background-color: #eff3f4;
+  align-items: flex-end;
+}
+
+.suggestions h2{
+  align-self: flex-start;
+}
+
+.suggested-person{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.suggestion-pp img{
+  width: 2.5rem; 
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+
+.suggested-person:hover{
+  background-color: #e1e3e4;
+  cursor: pointer;
+}
+
+.suggestion-name{
+  margin-left: 0.5rem;
+  line-height: 1.2rem;
+}
+
+.suggestion-display-name{
+  font-weight: bold;
+  margin: 0;
+}
+
+.suggestion-at{
+  margin: 0;
+}
+
+.suggestion-follow{
+  margin-left: auto;
+  margin-right: 0.5rem;
+}
+
+.suggestion-follow button{
+  padding: 0.3rem 1.2rem;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-style: none;
+}
+
+.suggestion-follow button:hover{
+  background-color: rgba(0, 0, 0, 0.75)
+}
+
+.show-more-people{
+  margin-bottom: 0;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.show-more-people p{
+  color: rgb(233, 141, 21);
+  margin: 0.5rem 0;
+}
+
+.terms{
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.terms a{
+  text-decoration: none;
+  color: #5d6d79;
+  font-size: 0.9rem;
+  margin: 0 0.1rem;
+  line-height: 1.2rem;
+  letter-spacing: -1px;
+}
+
+.terms a:hover{
+  text-decoration: underline;
+}
+
+@media (max-width: 1250px){
+  .suggestion-follow{
+    margin: 0 auto;
+  }
+  .suggestion-follow button{
+    padding: 0.3rem 0.8rem;
+  }
+}
