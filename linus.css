@@ -89,7 +89,7 @@
 }
 
 .three-dots:hover{
-  background-color:rgb(233, 141, 21, 30%);
+  background-color: rgb(233, 141, 21, 50%);
   border-radius: 50%;
 }
 
@@ -200,15 +200,55 @@
   letter-spacing: -1px;
 }
 
+.messages{
+  align-items: center;
+  display: flex;
+  padding: 0.5rem;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  bottom: 0;
+  right: 25px;
+  width: 20%;
+  border-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.messages:hover{
+  cursor: pointer;
+}
+
+.msg-icons i{
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.msg-icons i:hover{
+  background-color: rgb(163, 163, 142, 30%);
+  border-radius: 50%;
+}
+
+.messages h3{
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0.2rem;
+}
+
 .terms a:hover{
   text-decoration: underline;
 }
 
-@media (max-width: 1250px){
+@media (max-width: 1200px){
   .suggestion-follow{
     margin: 0 auto;
   }
   .suggestion-follow button{
     padding: 0.3rem 0.8rem;
   }
+  .messages{
+    display: none;
+  }
 }
+
