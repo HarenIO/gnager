@@ -1,6 +1,6 @@
 /* Beccas CSS */
 .becca{
-  height: 2000px;
+  height: 100%;
 }
 
 .feed {
@@ -138,19 +138,59 @@ border-bottom: solid 1px lightgray;
   transform: scale(1.5);
 
 }
+.tag {
+  color: rgb(68, 127, 255);
+}
 
 #dinner {
   margin-left: 60px;
+  border: solid 1px rgb(148, 148, 148);
+  border-radius: 15px;
 }
 #horror {
   margin-left: 60px;
 }
 #birthday {
   margin-left: 60px;
+  border: solid 1px rgb(148, 148, 148);
+  border-radius: 15px;
 }
-#username2 {
-  margin-left: 140px;
+#furReal-loc {
+  margin-left: 65px;
+  margin-top: -15px;
+  color: rgb(148, 148, 148);
+}
+#haircut {
+  margin-left: 60px;
+  border: solid 1px rgb(148, 148, 148);
+  border-radius: 15px;
+}
+#wasted {
+  margin-left: 60px;
+  border: solid 1px rgb(148, 148, 148);
+  border-radius: 15px;
+}
+#username1 {
+  margin-left: 150px;
+}
+#username3 {
+  margin-left: 148px;
 }
 #username4 {
-  margin-left: 150px;
+  margin-left: 153px;
+}
+#username5 {
+  margin-left: 157px;
+}
+#username6 {
+  margin-left: 135px;
+}
+#username7 {
+  margin-left: 185px;
+}
+#username8 {
+  margin-left: 158px;
+}
+#username9 {
+  margin-left: 130px;
 }
