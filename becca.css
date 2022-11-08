@@ -20,13 +20,23 @@
   cursor: pointer;
   -webkit-filter: grayscale(30%);
 }
-
 h5 {
   position: fixed;
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.97);
   padding: 10px;
   width: 646px;
+  height: 8%;
   z-index: 1;
+  }
+  h5:hover {
+    cursor: pointer;
+  }
+  #top-gnags {
+    margin-left: 580px;
+    margin-top: -40px;
+  }
+  #top-gnags:hover {
+    transform: scale(1.5);
   }
 
 .gnaga {
@@ -73,13 +83,11 @@ h5 {
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  padding: 0px;
 }
 .all-gnags-item {
-padding-bottom: 0px;
+/* padding-bottom: 0px; */
 margin-top: -45px;
 border-bottom: solid 1px lightgray;
-
 }
 
 .all-gnags-item:hover {
@@ -149,6 +157,8 @@ border-bottom: solid 1px lightgray;
 }
 #horror {
   margin-left: 60px;
+  border: solid 1px rgb(148, 148, 148);
+  border-radius: 15px;
 }
 #birthday {
   margin-left: 60px;
