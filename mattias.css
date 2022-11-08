@@ -1,1 +1,46 @@
 /* Mattias CSS */
+.box {
+  background-color: white !important;
+}
+
+.leftside {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tweet-button {
+  background-color: #1da1f2;
+  color: white;
+  border: #1da1f2;
+  width: 175px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+ul li a img {
+  width: 22px;
+  height: auto;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.icon {
+  width: 26px;
+  height: auto;
+}
+
+/* .icon:hover {
+  background-color: rgba(142, 239, 246, 0.541);
+} */
+
+a {
+  text-decoration: none;
+  color: #14171a;
+}
