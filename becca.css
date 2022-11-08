@@ -1,7 +1,7 @@
-/* Beccas CSS */
+/* Beccas CSS
 .becca{
   height: 100%;
-}
+} */
 
 .feed {
   border-left: solid 1px lightgray;
@@ -66,6 +66,7 @@ h5 {
 
 .symbols-item:hover {
   cursor: pointer;
+  transform: scale(1.5);
 }
 
 #post-gnag {
@@ -86,10 +87,12 @@ h5 {
 }
 .all-gnags-item {
 /* padding-bottom: 0px; */
-margin-top: -45px;
+/* margin-top: -45px; */
 border-bottom: solid 1px lightgray;
 }
-
+.all-gnags-item .user {
+  margin-top: 10px;
+}
 .all-gnags-item:hover {
   background-color: #e1e3e4;
 }
@@ -193,7 +196,7 @@ border-bottom: solid 1px lightgray;
   margin-left: 157px;
 }
 #username6 {
-  margin-left: 135px;
+  margin-left: 157px;
 }
 #username7 {
   margin-left: 185px;
