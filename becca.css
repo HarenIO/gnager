@@ -3,6 +3,7 @@
   height: 100%;
 } */
 
+
 .feed {
   border-left: solid 1px lightgray;
   border-right: solid 1px lightgray;
@@ -20,14 +21,24 @@
   cursor: pointer;
   -webkit-filter: grayscale(30%);
 }
-h5 {
+/* h5 {
   position: fixed;
   background-color: rgb(255, 255, 255, 0.97);
   padding: 10px;
   width: 646px;
   height: 8%;
   z-index: 1;
+  } */
+
+  header {
+    position: fixed;
+    background-color: rgb(255, 255, 255, 0.97);
+    padding: 10px;
+    width: 646px;
+    height: 8%;
+    z-index: 1;
   }
+
   h5:hover {
     cursor: pointer;
   }
@@ -43,15 +54,28 @@ h5 {
   border-bottom: 1px solid lightgray;
   height: 165px;
 }
-
 .happening {
+  position: absolute;
+  border: none;
+  margin-left: 15px;
+  margin-top: 55px;
+  font-size: 20px;
+  color: rgb(120, 117, 117);
+  cursor: text;
+  padding: 10px;
+}
+.happening:focus {
+  outline: none;
+}
+
+/* .happening {
   margin-left: 65px;
   margin-top: -35px;
   font-size: 20px;
   color: rgb(120, 117, 117);
   cursor: text;
   padding: 10px;
-}
+} */
 .symbols {
   display: flex;
   flex-direction: row;
@@ -59,8 +83,8 @@ h5 {
   align-items: center;
   box-sizing: border-box;
   justify-content: flex-start;
-  margin-top: 20px;
-  margin-left: 60px;
+  margin-top: 40px;
+  margin-left: 80px;
   width: 25%;
 }
 
@@ -71,12 +95,12 @@ h5 {
 
 #post-gnag {
   background-color: rgb(163, 163, 142);
-  color: white;
-  border-radius: 20px;
-  border: 0px;
-  padding: 8px 18px;
-  font-size: 16px;
-  position: absolute;
+  /* color: white; */
+  /* border-radius: 20px; */
+  /* border: 0px; */
+  /* padding: 8px 18px; */
+  /* font-size: 16px; */
+  /* position: absolute; */
   margin: -45px 550px;
 }
 
@@ -97,8 +121,8 @@ border-bottom: solid 1px lightgray;
   background-color: #e1e3e4;
 }
 .display-name {
-  position: relative;
-  font-weight: bold;
+  /* position: relative;
+  font-weight: bold; */
   margin-left: 4rem;
   margin-top: -40px;
 }
@@ -149,9 +173,9 @@ border-bottom: solid 1px lightgray;
   transform: scale(1.5);
 
 }
-.tag {
+/* .tag {
   color: rgb(68, 127, 255);
-}
+} */
 
 #dinner {
   margin-left: 60px;
@@ -206,4 +230,58 @@ border-bottom: solid 1px lightgray;
 }
 #username9 {
   margin-left: 130px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 700px) {
+
+.gnaga {
+  display: none;
+}
+
+.all-gnags {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+header {
+  position: fixed;
+  background-color: rgb(255, 255, 255, 0.97);
+  padding: 10px;
+  width: 646px;
+  height: 8%;
+  z-index: 1;
+}
+
+#top-gnags {
+  margin-left: 300px;
+  margin-top: -60px;
+}
+
+.leftside {
+  display: none;
+}
+
+.becca {
+
+  margin-top: -500px;
+}
+
+.reactions {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: right;
+  max-width: 700px;
+  height: 30px;
+}
+.reactions p {
+  padding-right: 60px;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
 }
