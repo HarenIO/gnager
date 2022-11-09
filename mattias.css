@@ -1,9 +1,12 @@
-/* Mattias CSS */
+Mattias CSS /
 .box {
   background-color: white !important;
 }
 
 .leftside {
+  background-color: palevioletred;
+  width: 300px;
+  height: 100vh;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -36,11 +39,59 @@ ul {
   height: auto;
 }
 
-/* .icon:hover {
+.icon:hover {
   background-color: rgba(142, 239, 246, 0.541);
-} */
+}
 
 a {
   text-decoration: none;
   color: #14171a;
+}
+
+.hangingrat {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.user-account {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: inherit;
+  height: auto;
+}
+
+.test {
+  position: relative;
+}
+
+.user-account {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.my-dots {
+  margin-left: 40px;
+}
+
+.my-dots:hover {
+  background-color: rgb(233, 141, 21, 30%);
+  border-radius: 50%;
+}
+
+.p-container {
+  background-color: aliceblue;
+}
+
+.p--1 {
+  background-color: rebeccapurple;
+}
+
+.p--2 {
+  background-color: tomato;
 }
