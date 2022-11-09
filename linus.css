@@ -29,6 +29,8 @@
   width: 100%;
 }
 
+
+
 .search input::placeholder{
   color:#5d6d79;
 }
@@ -240,15 +242,9 @@
   text-decoration: underline;
 }
 
-@media (max-width: 1200px){
-  .suggestion-follow{
-    margin: 0 auto;
-  }
-  .suggestion-follow button{
-    padding: 0.3rem 0.8rem;
-  }
-  .messages{
-    display: none;
-  }
+.tweet-button{
+  margin-left: 0 !important;
 }
+
+
 

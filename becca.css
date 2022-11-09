@@ -4,6 +4,7 @@
 } */
 
 
+
 .feed {
   border-left: solid 1px lightgray;
   border-right: solid 1px lightgray;
@@ -34,8 +35,8 @@
     position: fixed;
     background-color: rgb(255, 255, 255, 0.97);
     padding: 10px;
-    width: 646px;
     height: 8%;
+    width: 640px;
     z-index: 1;
   }
 
@@ -51,6 +52,7 @@
   }
 
 .gnaga {
+  margin-top: 2rem;
   border-bottom: 1px solid lightgray;
   height: 165px;
 }
@@ -93,6 +95,7 @@
   transform: scale(1.5);
 }
 
+
 #post-gnag {
   background-color: rgb(163, 163, 142);
   /* color: white; */
@@ -101,7 +104,7 @@
   /* padding: 8px 18px; */
   /* font-size: 16px; */
   /* position: absolute; */
-  margin: -45px 550px;
+  margin: -35px 550px;
 }
 
 .all-gnags {
@@ -143,7 +146,7 @@ border-bottom: solid 1px lightgray;
 }
 .more {
   position: relative;
-  margin-left: 34em;
+  margin-left: 32em;
   margin-top: -40px;
   font-weight: bold;
   font-size: 16px;
@@ -156,7 +159,7 @@ border-bottom: solid 1px lightgray;
 }
 
 .reactions {
-  margin-bottom: 10px;
+  margin-bottom: -10px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -233,55 +236,3 @@ border-bottom: solid 1px lightgray;
 }
 
 
-/* MEDIA QUERIES */
-
-@media screen and (max-width: 700px) {
-
-.gnaga {
-  display: none;
-}
-
-.all-gnags {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-header {
-  position: fixed;
-  background-color: rgb(255, 255, 255, 0.97);
-  padding: 10px;
-  width: 646px;
-  height: 8%;
-  z-index: 1;
-}
-
-#top-gnags {
-  margin-left: 300px;
-  margin-top: -60px;
-}
-
-.leftside {
-  display: none;
-}
-
-.becca {
-
-  margin-top: -500px;
-}
-
-.reactions {
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: right;
-  max-width: 700px;
-  height: 30px;
-}
-.reactions p {
-  padding-right: 60px;
-  padding-left: 10px;
-  margin-top: 15px;
-}
-
-}

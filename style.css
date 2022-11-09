@@ -1,0 +1,112 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 700px) {
+
+  
+
+    #post-gnag {
+      position: relative;
+      margin-left: 350px;
+      margin-top: -30px;
+    }
+    
+    .more {
+      margin-left: 400px;
+    }
+    .all-gnags {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+    }
+    
+    header {
+      position: fixed;
+      background-color: rgb(255, 255, 255, 0.97);
+      padding: 10px;
+      width: 100%;
+      z-index: 1;
+    }
+    
+    #top-gnags {
+      margin-left: 380px;
+      margin-top: -60px;
+    }
+    
+    /* .leftside {
+      display: none;
+    } */
+    
+    
+    .reactions {
+      display: inline-flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: right;
+      max-width: 700px;
+      height: 30px;
+      margin-right: 50px;
+    }
+    .reactions p {
+      padding-right: 60px;
+      padding-left: 10px;
+      margin-top: 15px;
+    }
+    .menu-text {
+      display: none;
+    }
+    
+    
+    
+    .my-dots {
+      display: none;
+    }
+    
+    .user-account {
+      margin-left: 10px;
+      margin-bottom: 50px;
+    }
+    
+    
+    }
+    
+
+    @media (max-width: 1200px){
+      .suggestion-follow{
+        margin: 0 auto;
+      }
+      .suggestion-follow button{
+        padding: 0.3rem 0.8rem;
+      }
+      .messages{
+        display: none;
+      }
+    }
+    
+    @media (max-width: 1000px){
+      .beepboop{
+        margin-left: 0 !important;
+      }
+      .p--1, .p--2 {
+        display: none;
+      }
+      .menu-text{
+        display: none;
+      }
+      .tweet-button {
+        width: 50px !important;
+        height: 50px !important;
+        padding: 0 !important;
+      }
+      .tweet-button::before {
+        content: '+';
+      }
+      .leftside ul{
+        align-items: center !important;
+      }
+    }
+    
+    @media (max-width: 575px){
+    .leftside{
+        display: none;
+      }
+    }

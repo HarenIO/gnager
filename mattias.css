@@ -1,11 +1,9 @@
-Mattias CSS /
+
 .box {
   background-color: white !important;
 }
 
 .leftside {
-  background-color: palevioletred;
-  width: 300px;
   height: 100vh;
   position: fixed;
   display: flex;
@@ -13,13 +11,20 @@ Mattias CSS /
   align-items: center;
 }
 
+.leftside ul{
+  display:flex;
+  flex-direction: column;
+  padding-left: 0 !important;
+}
+
 .tweet-button {
-  background-color: #1da1f2;
+  background-color:rgb(163, 163, 142);
   color: white;
-  border: #1da1f2;
-  width: 175px;
-  height: 40px;
-  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+}
+.tweet-button::before {
+  content: 'Gnag';
 }
 
 ul li a img {
@@ -34,13 +39,19 @@ ul {
   list-style: none;
 }
 
+/*
+li:hover {
+  background-color: #aab8c2;
+  cursor: pointer;
+} */
+
 .icon {
   width: 26px;
-  height: auto;
 }
 
 .icon:hover {
   background-color: rgba(142, 239, 246, 0.541);
+  border-radius: 50%;
 }
 
 a {
@@ -56,12 +67,10 @@ a {
 }
 
 .user-account {
-  background-color: aquamarine;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   width: inherit;
-  height: auto;
 }
 
 .test {
@@ -71,27 +80,33 @@ a {
 .user-account {
   position: absolute;
   bottom: 0px;
-  display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  margin-left: -100px;
+}
+
+.user-account:hover {
+  cursor: pointer;
 }
 
 .my-dots {
-  margin-left: 40px;
+  margin-left: 250px;
+  margin-top: 60px;
 }
 
 .my-dots:hover {
   background-color: rgb(233, 141, 21, 30%);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .p-container {
-  background-color: aliceblue;
 }
 
 .p--1 {
-  background-color: rebeccapurple;
+  margin-left: 0px;
 }
-
 .p--2 {
-  background-color: tomato;
+  margin-left: -80px;
+  margin-top: 40px;
+  color: grey;
 }
